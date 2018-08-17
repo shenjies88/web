@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+	#container{
+		margin:0px auto;
+		
+		width:1200px;
+		height:900px;
+		
+	}
+	#header{
+		height:240px;
+			
+	}
+	
+	#daohanglan{
+		background:url(./Nalist1.gif);
+		height:40px;
+	}
+	
+	#daohanglan a{
+		float:left;
+		display:block;
+		height:40px;
+		line-height:40px;
+		font-size:12px;
+		font-family:"微软将雅黑";
+		width:150px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		
+	}
+	#Sel{
+		background:url(./Nalist_hover.gif);
+	}
+	#daohanglan a:hover{
+		background:url(./Nalist_hover.gif);
+	}
+	
+	#main{
+		width:1200px;
+		height:660px;
+		background:url(./bg12.JPG);
+		position:absolute;
+		border-left: 1px solid #999;
+		border-bottom: 1px solid #999;
+		
+	}
+	
+	#CandE{
+		height:30px;
+		width:250px;
+		float:right;
+		background:url(./CE.jpg);
+		border-radius:5px;
+	}
+	
+		
+	#CandE li{		
+		float:left;
+	
+	}
+	
+	#CandE a{
+		width:100px;
+		height:30px;
+		line-height:30px;
+		text-align:center;
+		color:#000;
+		font-size:20px;
+		font-weight:bold;
+		margin-left:20px;
+		display:block;
+		text-decoration:none;
+	}
+	
+	#CandE a:hover,
+		   a:focus{
+			   cursor:pointer;
+			   color: #fff;
+			   
+		   }
+		   
+	#slzg{
+		background:url(bg15.JPG);
+		height:200px;
+	}
+		   
+	.page{
+		position:absolute;
+		top:220px;
+		left:280px;
+		width:550px;
+		height:220px;
+		padding:20px;
+		background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#fff), to(#f3f3f3), color-stop(.1,#fff));
+		border-top: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        -webkit-border-top-left-radius: 60px 5px;
+       -webkit-border-top-right-radius: 60px 5px;
+       -webkit-border-bottom-right-radius: 60px 60px ;
+        -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3) ;
+		    box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 12px;
+		
+	}
+	
+	.page:before{
+    content:'';    
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform:
+    rotate(-20deg)
+    skew(-40deg,-3deg)
+    translate(-13px,-13px);
+}
+
+	.page::after{
+    content: '';
+    z-index: -10;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(0deg)
+                        translate(-45px,-20px)
+                           skew(20deg);
+}
+	
+	.page span{
+		color:#000;
+		font-weight:bold;
+		font-size:14px;
+	}
+	
+	.page h1{
+		margin-left:30px;
+		font-size:14px;
+		font-weight:bold;
+	}
+	
+	.page p{
+		text-indent:2em;
+		font-size:12px;
+		color:#930;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		white-space:pre-wrap;
+		
+		
+	}
+	
+	.page a{
+		position:absolute;
+		text-decoration:none;
+	}
+	
+	.page a:hover,
+		   a:focus{
+			   cursor:pointer;
+			   color:#F00;
+		   }
+		   
+	#page1{
+		display:block;
+	}
+	
+	#page1 h1{
+	}
+	
+	#next1{
+		right:40px;
+		bottom:40px;
+	}
+	
+	
+	
+	
+	#page2{
+		display:none;
+	}
+	
+	#next2{
+		right:40px;
+		bottom:40px;
+	}
+	
+	#return2{
+		left:40px;
+		bottom:40px;
+	}
+	
+	
+	
+	
+	#page3{
+		display:none;
+	}
+	
+	#next3{
+		right:40px;
+		bottom:40px;
+	}
+	
+	#return3{
+		left:40px;
+		bottom:40px;
+	}
+	
+	
+	#page4{
+		display:none;
+	}
+	
+	#next4{
+		right:40px;
+		bottom:40px;
+	}
+	
+	#return4{
+		left:40px;
+		bottom:40px;
+	}
+	
+	#fff{
+		background:url(./red4.jpg); width:1200px; height:150px; margin:10px auto;
+	}
+	
+	#ulcontainer{
+		margin:10px auto 0px auto; height:140px; width:800px;
+	}
+	
+	#ulcontainer ul{
+		list-style:none; float:left; margin:10px 20px 0px 40px;
+	}
+	
+	
+	.shou{
+		color:#fff; font-weight:bold; font-size:14px; margin-bottom:8px;
+	}
+	
+	#ulcontainer a{
+		color:#fff; text-decoration:none;
+		height:20px;
+		line-height:10px;
+		
+	}
+	
+	.ci{
+		color:#fff;
+		font-size:10px;
+		margin-bottom:8px;
+	}
+	

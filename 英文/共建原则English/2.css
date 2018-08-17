@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+		margin:0px auto;
+		
+
+		width:1200px;
+		height:900px;
+		
+	}
+	#header{
+		height:240px;
+			
+	}
+	
+	#daohanglan{
+		background:url(./Nalist1.gif);
+		height:40px;
+	}
+	
+	#daohanglan a{
+		float:left;
+		display:block;
+		height:40px;
+		line-height:40px;
+		font-size:12px;
+		font-family:"微软将雅黑";
+		width:150px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		
+	}
+	
+	#slzg{
+		background:url(bg15.JPG);
+		height:200px;
+	}
+	
+	#Sel{
+		background:url(./Nalist_hover.gif);
+	}
+	#daohanglan a:hover{
+		background:url(./Nalist_hover.gif);
+	}
+	
+	#main{
+		height:660px;
+		background:url(./bg11.JPG);
+		
+	}
+	
+	#CandE{
+		height:30px;
+		width:250px;
+		float:right;
+		background:url(./CE.jpg);
+		border-radius:5px;
+		
+	}
+	
+		
+	#CandE li{		
+		float:left;
+	
+	}
+	
+	#CandE a{
+		width:100px;
+		height:30px;
+		display:block;
+		line-height:30px;
+		text-align:center;
+		color:#000;
+		font-size:20px;
+		font-weight:bold;
+		margin-left:20px;
+		text-decoration:none;
+	}
+	
+	#CandE a:hover,
+		   a:focus{
+			   cursor:pointer;
+			   color:#fff;
+		}
+		
+	#vd{
+		float:left;
+		margin-left:50px;
+		margin-top:100px;
+		margin-right:5px;
+		width:400px;
+		
+	}
+	
+	#read{
+		background:#000;
+		text-align:center;
+		height:50px;
+		line-height:50px;
+		color:#FFF;
+		font-size:20px;
+	}
+	
+	#yuanze{
+		float:left;
+		margin-left:20px;
+		margin-top:50px;
+		width:500px;
+		border-bottom:3px solid #F00;
+	}
+	
+	#yuanze h1{
+		text-align:center;
+		font-size:20px;
+		font-weight:bold;
+		color:#000;
+	}
+	
+	#yuanze p{
+		text-indent:2em;
+		word-wrap:break-word;
+		color:#000;
+		margin-bottom:10px;
+		font-size:14px;
+	}
+	
+	#yuanze span{
+		font-weight:bold;
+		font-size:17px;
+	}
+	
+	
+	#fff{
+		background:url(./red4.jpg); width:1200px; height:150px; margin:10px auto;
+	}
+	
+	#ulcontainer{
+		margin:10px auto 0px auto; height:140px; width:800px;
+	}
+	
+	#ulcontainer ul{
+		list-style:none; float:left; margin:10px 20px 0px 40px;
+	}
+	
+	
+	.shou{
+		color:#fff; font-weight:bold; font-size:14px; margin-bottom:8px;
+	}
+	
+	#ulcontainer a{
+		color:#fff; text-decoration:none;
+		height:20px;
+		line-height:10px;
+		
+	}
+	
+	.ci{
+		color:#fff;
+		font-size:10px;
+		margin-bottom:8px;
+	}
+	

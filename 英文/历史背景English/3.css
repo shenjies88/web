@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+		margin:0px auto;
+		background:url(./bg11.JPG);
+
+		width:1200px;
+		height:900px;
+		
+	}
+	#header{
+		height:240px;
+		
+	}
+	
+	#daohanglan{
+		background:url(./Nalist1.gif);
+		height:40px;
+	}
+	
+	#daohanglan a{
+		float:left;
+		display:block;
+		height:40px;
+		line-height:40px;
+		font-size:12px;
+		font-family:"微软将雅黑";
+		width:150px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		
+	}
+	#Sel{
+		background:url(./Nalist_hover.gif);
+	}
+	#daohanglan a:hover{
+		background:url(./Nalist_hover.gif);
+	}
+	
+	#main{
+		height:660px;
+		background:url(./bg14.JPG);
+		overflow:hidden;
+		
+		
+		
+	}
+	
+	#slzg{
+		background:url(bg15.JPG);
+		height:200px;
+	}
+	
+	#CandE{
+		height:30px;
+		width:250px;
+		float:right;
+		background:url(./CE.jpg);
+		border-radius:5px;
+	}
+	
+		
+	#CandE li{		
+		float:left;
+	
+	}
+	
+	#CandE a{
+		width:100px;
+		height:30px;
+		line-height:30px;
+		text-align:center;
+		color:#000;
+		font-size:20px;
+		font-weight:bold;
+		margin-left:20px;
+		display:block;
+		text-decoration:none;
+	}
+	
+	#CandE a:hover,
+		   a:focus{
+			   cursor:pointer;
+			   color:#fff;
+			   
+		   }
+		
+	#hualang{
+		float:left;
+		width:800px;
+		height:300px;
+		background:url(./sczl%20.jpg);
+		position:absolute;
+		margin-left:10px;
+		margin-top:10px;
+		border-radius:10px;
+	}
+	
+	#hualang img{
+		position:absolute;
+		transition:0.5s;
+		border:2px solid #999;
+		
+	}
+	
+	#hualang img:hover
+		   {
+			  cursor:pointer;
+			  transform:scale(1.2);
+		  }
+	#zhu{
+		top:55px;
+		left:210px;
+		width:370px;
+		height:140px;
+	}
+	
+	#img1{
+		top:220px;
+		left:80px;
+		width:110px;
+		height:55px;
+	}
+	
+	#img2{
+		top:220px;
+		left:210px;
+		width:110px;
+		height:55px;
+	}
+	
+	#img3{
+		top:220px;
+		left:340px;
+		width:110px;
+		height:55px;
+	}
+	
+	#img4{
+		top:220px;
+		left:470px;
+		width:110px;
+		height:55px;
+	}
+	
+	#img5{
+		top:220px;
+		left:600px;
+		width:110px;
+		height:55px;
+	}
+	
+	#down{
+		clear:left;
+		width:700px;
+		height:120px;
+		animation:myfirst 1s;		
+		margin-left:40px;
+		
+		
+	}
+	
+	#down p{
+		text-indent:2em;
+		/*word-break:break-all;*/
+		font-size:12px;
+		color:#930;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		word-wrap:break-word;
+		
+	}
+	
+	 span{
+		color:#000;
+		font-weight:bold;
+		font-size:20px;
+	}
+	
+	#right{
+		margin-left:850px;
+		margin-top:50px;		
+		width:340px;
+		height:300px;
+		animation:myfirst 1s;
+	}
+	
+	#right h1{
+		text-align:center;
+		height:30px;
+		line-height:30px;
+		font-size:25px;
+		color:#C03;
+		font-weight:bold;
+	}
+	#right p{
+		text-indent:2em;
+		word-wrap:break-word;
+		font-size:12px;
+		color:#930;
+	}
+	
+	@keyframes myfirst{
+		from{ opacity:0;}
+		to{ opacity:1;}
+	}
+	
+	
+	#fff{
+		background:url(./red4.jpg); width:1200px; height:150px; margin:10px auto;
+	}
+	
+	#ulcontainer{
+		margin:10px auto 0px auto; height:140px; width:800px;
+	}
+	
+	#ulcontainer ul{
+		list-style:none; float:left; margin:10px 20px 0px 40px;
+	}
+	
+	
+	.shou{
+		color:#fff; font-weight:bold; font-size:14px; margin-bottom:8px;
+	}
+	
+	#ulcontainer a{
+		color:#fff; text-decoration:none;
+		height:20px;
+		line-height:10px;
+		
+	}
+	
+	.ci{
+		color:#fff;
+		font-size:10px;
+		margin-bottom:8px;
+	}
+	

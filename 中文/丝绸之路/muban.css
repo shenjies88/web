@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+	#container{
+		margin:0px auto;
+		
+		width:1200px;
+		height:900px;
+		
+	}
+	#header{
+		height:240px;
+		position:r
+	}
+	
+	#daohanglan{
+		background:url(./Nalist1.gif);
+		height:40px;
+	}
+	
+	#daohanglan a{
+		float:left;
+		display:block;
+		height:40px;
+		line-height:40px;
+		font-size:20px;
+		font-family:"微软将雅黑";
+		width:150px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		
+	}
+	#Sel{
+		background:url(./Nalist_hover.gif);
+	}
+	#daohanglan a:hover{
+		background:url(./Nalist_hover.gif);
+	}
+	
+	#main{
+		height:660px;
+		background:url(b121.jpg);
+		position:relative;
+		
+	}
+	
+	#CandE{
+		height:30px;
+		width:250px;
+		background:url(./CE.jpg);
+		float:right;
+		border-radius:5px;
+	}
+	
+		
+	#CandE li{		
+		float:left;
+	
+	}
+	
+	#CandE a{
+		display:block;
+		width:100px;
+		height:30px;
+		line-height:30px;
+		text-align:center;
+		color:#000;
+		font-size:20px;
+		font-weight:bold;
+		margin-left:20px;
+		text-decoration:none;
+	}
+	
+	#CandE a:hover,
+		   a:focus{
+			   cursor:pointer;
+			   color:#fff;
+			   
+		   }
+		   
+	#slzg{
+		background:url(bg15.JPG);
+		height:200px;
+	}
+	
+	#menu{
+		width:350px;
+		height:300px;
+		left:80px;
+		top:50px;
+		position:absolute;
+		
+		background:url(8.jpg);
+		}
+	#menu li{
+	margin-top:15px;	
+	height:45px; 
+	line-height:30px; 
+	text-align:center ;
+	
+	
+	
+	
+	}
+     #menu a{
+	 color:#FFF;
+     font-size:16px;
+     text-decoration:none; 
+     display:block; 
+     padding-right:25px;
+	 text-align:center;
+	 }
+#menu a:hover,#menu .on a{
+	color:#F90;
+	height:45px;
+	margin-top:15px;
+	line-height:20px;
+	background-image: url(images/hover.png);
+	_background-image: url(images/hover.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	font-weight: bold;
+}
+		#text{
+			width:660px;
+			height:260px;
+			top:50px;
+			left:430px;
+			position:absolute;
+			float:left;
+			color:#000;
+			font-size:18px;
+			padding:20px;
+			text-indent:2em;
+			background:url(7.jpg);
+			
+			}
+			
+a{display:block;line-height:18px;text-decoration:none;color:#000;font-family:Arial;font-size:14px;}
+a:hover{text-decoration:none;}
+.shell{width:330px; }	
+			
+#div1 {
+	height:160px;
+	width:330px;
+	border:2px #C00 dotted;
+	border-radius:8px;
+	overflow:hidden;
+	top:450px;
+	left:110px;
+	position:absolute;
+	background:url(O.png);
+	padding:2px;
+}			
+			
+			
+		.wrap {
+	height:260px;
+	width:630px;
+	border:1px solid;
+	border-radius:10px;
+	top:370px;
+	left:480px;
+	position:absolute;
+	overflow:hidden;
+	z-index:1;
+	float:left;
+}
+
+.wrap ol {
+	position:absolute;
+	right:5px;
+	bottom:10px;
+	z-index:2;
+}
+.wrap ol li {
+	height:20px;
+	width:20px;
+	background:#ddd;
+	border:1px solid #969591;
+	border-radius:50%;
+	margin-left:5px;
+	color:#959490;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+}
+.wrap ol .on {
+	background:#8F9E9E;
+	color:#fff;
+}
+
+
+#fff{
+		background:url(./red4.jpg); width:1200px; height:150px; margin:10px auto;
+	}
+	
+	#ulcontainer{
+		margin:10px auto 0px auto; height:140px; width:800px;
+	}
+	
+	#ulcontainer ul{
+		list-style:none; float:left; margin:10px 18px 0px 70px;
+	}
+	
+	
+	.shou{
+		color:#fff; font-weight:bold; font-size:18px; margin-bottom:8px;
+	}
+	
+	#ulcontainer a{
+		color:#fff; text-decoration:none;
+		
+	}
+	
+	.ci{
+		color:#fff;
+		font-size:14px;
+		margin-bottom:8px;
+	}

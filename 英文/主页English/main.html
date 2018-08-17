@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>一带一路</title>
+<link rel="stylesheet" href="./inital.css" />
+<link rel="stylesheet" href="./main.css" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<style>
+	@media screen and (max-width : 900px){
+		#container{
+			width:600px;
+			
+			
+		}
+		
+		#slzg{
+			background:url(minbg15.jpg);
+		}
+			
+		#daohanglan a{		
+		line-height:20px;
+		font-size:10px;
+		font-family:"微软将雅黑";
+		width:75px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;			
+		}
+		
+			#CandE{
+		height:30px;
+		width:130px;
+		background:
+		url(./CE.jpg);
+		float:right;
+		border-radius:5px;
+	}
+	
+	#CandE a{
+		width:50px;
+		height:30px;
+		display:block;
+		line-height:30px;
+		text-align:center;
+		color:#000;
+		font-size:10px;
+		font-weight:bold;
+		margin-left:10px;
+		text-decoration:none;
+		
+	}
+		
+	#title{
+			width:200px;
+			font-size:20px;
+			margin-left:200px;
+		
+		}
+	
+	#tupian{
+		height:280px;
+		width:600px;
+		position:absolute;
+		
+	}
+	
+	#img2{
+		left:50px;
+		z-index:2;
+		top:25px;
+	}
+	#img3{
+		left:50px;
+		z-index:3;
+		top:25px;
+	}
+	#img4{
+		left:50px;
+		z-index:2;
+		top:25px;
+	}#img5{
+		left:50px;
+		z-index:1;
+		top:25px;
+	}
+	
+	#right{
+		left:570px;
+	}
+	
+	#aducation{
+		height:80px;
+		clear:both;
+		position:relative;
+		top:280px;
+		width:300px;
+		
+		
+	}
+	
+	#neirong{
+		color: #000;
+		word-break:normal;
+		word-wrap:break-word;
+		font-size:20px;
+		font-weight:bold;
+		text-align:center;
+		height:40px;
+		line-height:40px;
+	}
+	
+	#qiehuan{
+		float:none;
+		height:227px;
+		width:474px;
+		margin-left:70px;
+		
+				
+	}
+	
+		#atical{
+		float:none;
+		margin-top:20px;
+		width:600px;
+		height:180px;		
+		margin-bottom:20px;
+		background: url(./bg16.JPG);
+		margin-right:50px;
+	}
+	
+	#footer{
+		margin-top:5px;
+		height:420px;
+	}
+	
+	#fff{
+		background:url(./red4.jpg); width:600px; height:150px; margin:190px auto 10px auto;;
+	}
+	
+	#ulcontainer{
+		 width:600px;
+		 height:150px;
+		 position:absolute;
+		 
+	}
+	
+	#ulcontainer ul{
+		 margin:10px 10px 10px 21px;
+		
+	}
+	
+	
+		
+		
+	}
+</style>
+</head>
+
+<body onload="setTimeout('change()',3000)" onunload="Clear1()">
+	<div id="container">
+    	<div id="header">
+        	<div id="slzg"></div>
+        	<div id="daohanglan">
+        	<nav>
+            	<a id="Sel" href="./main.html">Home page</a>
+                <a   href='../国际节日English/1.html'>International festivals</a>
+                <a  href='../共建原则English/2.html'>Principle coconstruction</a>
+                <a  href='../历史背景English/3.html'>History background</a>
+                <a href='../海上丝绸之路 English/aaa.html'>Maritime Silk Road</a>
+                <a  href='../丝绸之路English/aaa.html'>Silk Road</a>
+                <a  href='../合作动态English/aaa.html'>Cooperation dynamic</a>
+                <a   href='../我们的总结English/aaa.html'>Summary</a>
+        	</nav>
+        	</div>
+        </div>
+        <div id="main">
+        	<div id="CandE">
+            	<ul>
+                	<li><a href="../../中文/主页/main.html">中文</a></li>
+                    <li><a>English</a></li>
+                </ul>
+            </div>
+            <div id="title">Western scenery</div>             
+            <div id="tupian">
+            	<img onmousemove=""=""="img1move()" onmouseout="img1out()" id="img1" src="./1.jpg"/>
+                <img onmousemove="img2move()" onmouseout="img2out()" id="img2" src="./2.jpg"/>
+                <img onmousemove="img3move()" onmouseout="img3out()" id="img3" src="./3.jpg"/>
+                <img onmousemove="img4move()" onmouseout="img4out()" id="img4" src="./4.jpg"/>
+                <img onmousemove="img5move()" onmouseout="img5out()"  id="img5" src="./5.jpg"/>
+                <div onmouseover="Lchange1()" onmouseout="Lchange2()" onclick="add()" id="left"></div>
+                <div onmouseover="Rchange1()" onmouseout="Rchange2()" onclick="Di()" id="right"></div>			     
+            </div>
+            <div id="aducation">
+ 				<p id="neirong">
+                	Hexi Corridor
+                </p>
+            </div>            
+        </div>
+        <div id="footer">
+        	<div id="qiehuan">
+            	<div id="XXX" style="overflow:hidden;  border-bottom:4px solid #F00;">
+            	<ul >
+                	<li onmouseover="new1X()" id="last">News first look</li>
+                    <li onmouseover="new2X()"  id="guonei">Domestic News</li>
+                    <li onmouseover="new3X()"  id="guoji">international News</li>
+                </ul>
+            	</div>
+                
+                   <div id="new1" class="new">
+                   		<ul>
+                        	<li>Carry out the spirit of Xi Jinping 's important speech in the "One Way" Summit Forum<span style="margin-left:223px">2017.5.19</span></li>
+                            <li>"Along the way" to change China's urban geo-economy inland  and medium-sized cities get more opportunities<span style="margin-left:40px">2017.7.23</span></li>
+                            <li>On the Reform of the Judicial System<span style="margin-left:110px">2017.7.14</span></li>
+                            <li>China to the "one way along the" relevant national patent applications showed a good momentum<span style="margin-left:90px">2017.7.26</span></li>
+                       	</ul>
+            		</div>
+                    
+            		<div id="new2" class="new">
+                    	  <ul>
+                        	<li>On the "one way along the" state of imports and exports 32.14 billion yuan growth of 23.2%<span style="margin-left:150px">2017.7.26</span></li>
+                            <li>The new registered capital of the free trade area is 100 billion yuan<span style="margin-left:315px">2017.7.16</span></li>
+                            <li>Railway implementation of "point to point" in the European  classes have been completed 300 models<span style="margin-left:70px">2017.7.19</span></li>
+                            <li>Chinese scientists have made it possible to make quantum Internet<span style="margin-left:290px">2017.7.17</span></li>
+                       	</ul>
+            		</div>
+                    
+            		<div id="new3" class="new">
+                    	<ul>
+                        	<li>Kazakhstan released economic data in the first half GDP growth of 4.2%<span style="margin-left:300px">2017.7.25</span></li>
+                            <li>Well-known Chamber of Commerce organized the highly praised the "one way" initiative<span style="margin-left:195px">2017.7.15</span></li>
+                            <li>In the first quarter, China-Canada trade volume increased by China's first year<span style="margin-left:235px">2017.7.21</span></li>
+                            <li>Prandt and Putin met for the first time to meet<span style="margin-left:325px">2017.7.7</span></li>
+                       	</ul>
+            		</div>          
+            </div>
+            <div id="atical">
+            	<div style="height:150px;width:65%; margin-left:10px; margin-top:10px">
+   				<p>
+                "The Belt and Road" (English name: B & R) is the "Silk Road Economic Zone" and "21st Century Maritime Silk Road" short. It will rely heavily on China and the relevant countries of the existing double multilateral mechanism, with the existing, effective regional cooperation platform, along the way to borrow the ancient Silk Road, historical symbols, hold high the banner of peaceful development, and actively develop and Along the country's economic partnership, together to create political mutual trust, economic integration, cultural inclusion of the interests of the community, the fate of the community and the responsibility of the community.
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="fff">
+    	<div id="ulcontainer">
+        	<ul>
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10002" target='_blank'>News</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10149" target="_blank">High dynamic</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10002" target="_blank">Domestic News</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10005" target="_blank">Overseas news</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10003" target="_blank">Ministry dynamics</a>
+                </li>
+            </ul>
+            
+        	<ul>
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/zchj.htm" target='_blank'> Environment</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10010" target="_blank">Plan planning</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10011" target="_blank">reference</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10029" target="_blank">Graphic policy</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/zchj.htm" target="_blank">Policy inquiries</a>
+            </ul>
+            
+        	<ul>
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10006" target='_blank'>Release</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10008" target="_blank">Documents</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10009" target="_blank">regulations</a>
+                </li>                
+            </ul>
+            
+        	<ul id="si">
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target='_blank'>development</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target="_blank">Communication</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target="_blank">Facilities</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target="_blank">Trade is smooth</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target="_blank">Intermediation</a>
+            </ul>
+            
+        	<ul id="wu">
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10018" target='_blank'>Basic data</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10032" target="_blank">Data hot news</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/datasearch.htm?1#china_macro" target="_blank">data query</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10036" target="_blank">Big Data</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    
+   
+</body>
+</html>
+
+<script src="./main.js"></script>

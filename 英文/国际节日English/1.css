@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+		margin:0px auto;
+		background:url(./2291.jpg);
+		width:1200px;
+		height:900px;
+		
+	}
+	#header{
+		height:240px;
+		
+	}
+	
+	#daohanglan{
+		background:url(./Nalist1.gif);
+		height:40px;
+	}
+	
+	#daohanglan a{
+		float:left;
+		display:block;
+		height:40px;
+		line-height:40px;
+		font-size:12px;
+		font-family:"微软将雅黑";
+		width:150px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		
+	}
+	#Sel{
+		background:url(./Nalist_hover.gif);
+	}
+	#daohanglan a:hover{
+		background:url(./Nalist_hover.gif);
+	}
+	
+	#slzg{
+		background:url(bg15.JPG);
+		height:200px;
+	}
+	
+	#main{
+		height:500px;
+		
+	}
+	
+	#CandE{
+		height:30px;
+		width:250px;
+		background:url(./CE.jpg);
+		float:right;
+		border-radius:5px;
+	}
+	
+		
+	#CandE li{		
+		float:left;
+	
+	}
+	
+	#CandE a{
+		width:100px;
+		height:30px;
+		display:block;
+		line-height:30px;
+		text-align:center;
+		color:#000;
+		font-size:20px;
+		font-weight:bold;
+		margin-left:20px;
+		text-decoration:none;
+	}
+	
+	#CandE a:hover,
+		   a:focus{
+			   cursor:pointer;
+			   color:#fff;
+		}
+		
+	#left{
+		width:400px;
+		height:350px;
+		padding:10px;
+		float:left;
+		margin-top:80px;
+		margin-left:10px;
+		border-radius:5px;
+		border-color: #000;
+		border-width:5px;
+		border-style: solid;
+		background:#FFF;
+			}
+	
+	#left img{
+		width:400px;
+		height:300px;
+		margin-bottom:10px;
+	}
+	#text{
+		text-align:center;
+		height:40px;
+		line-height:20px;
+		font-size:15px;
+		font-weight:bold;
+		color:#930;
+	}
+	
+	.right{
+		width:500px;
+		height:390px;
+		float:left;
+		margin-top:40px;
+		margin-left:30px;
+		padding:10px;
+		animation:myfirst 1s;
+	}
+	
+	#r1{
+		
+	}
+	
+	#r2{
+		display:none;
+	}
+	
+	#r3{
+		display:none;
+		
+	}
+	
+	.right h1{
+		font-weight:bold;
+		font-size:15px;
+		color:#000;
+		margin:0px auto 0px 50px;
+	}
+	
+	.right p{
+		word-wrap:break-word;
+		text-indent:2em;
+		font-size:12px;		
+		color:#000;
+	}
+	
+	@keyframes myfirst{
+		from{ opacity:0;}
+		to{ opacity:1;}
+	}
+	
+	#footer{
+		height:160px;
+		
+		
+	}
+	
+	#footer ul{
+		float:right;
+		margin-top:40px;
+		margin-right:200px;
+	}
+	
+	#footer li{
+		float:left;
+		height:50px;
+		width:180px;
+		line-height:30px;
+		font-size:18px;		
+		text-align:center;
+		color:#000;
+		
+		
+	}
+	
+	#guoji{
+		border-top:4px solid #F00;
+		font-weight:bold;
+	}
+	
+	#shenzhen{
+		border-top:2px solid #000;
+	}
+	
+	#shanghai{
+		border-top:2px solid #000;
+	}
+	
+	#footer li:hover,
+			li:focus{
+				cursor:pointer;
+				
+			}
+			
+	#footer img{
+		float:left;
+		margin-left:80px;
+		margin-top:10px;	
+		border-radius:2em;		
+	}
+	
+	span{
+		font-weight:bold;
+		font-size:15px;
+	}
+
+	
+	
+	#fff{
+		background:url(./red4.jpg); width:1200px; height:150px; margin:10px auto;
+	}
+	
+	#ulcontainer{
+		margin:10px auto 0px auto; height:140px; width:800px;
+	}
+	
+	#ulcontainer ul{
+		list-style:none; float:left; margin:10px 20px 0px 40px;
+	}
+	
+	
+	.shou{
+		color:#fff; font-weight:bold; font-size:14px; margin-bottom:8px;
+	}
+	
+	#ulcontainer a{
+		color:#fff; text-decoration:none;
+		height:20px;
+		line-height:10px;
+		
+	}
+	
+	.ci{
+		color:#fff;
+		font-size:10px;
+		margin-bottom:8px;
+	}
+	
+	
+	
+	

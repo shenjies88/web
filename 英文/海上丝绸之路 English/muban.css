@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+	#container{
+		margin:0px auto;
+		
+		width:1200px;
+		height:900px;
+		
+	}
+	#header{
+		height:240px;
+		
+	}
+	
+	#slzg{
+		background:url(bg15.JPG);
+		height:200px;
+	}
+	
+	#daohanglan{
+		background:url(./Nalist1.gif);
+		height:40px;
+	}
+	
+	#daohanglan a{
+		float:left;
+		display:block;
+		height:40px;
+		line-height:40px;
+		font-size:12px;
+		font-family:"微软将雅黑";
+		width:150px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		
+	}
+	#Sel{
+		background:url(./Nalist_hover.gif);
+	}
+	#daohanglan a:hover{
+		background:url(./Nalist_hover.gif);
+	}
+	
+	#main{
+		height:660px;
+		background:url(b222.jpg);
+		position:relative;
+	}
+	
+	#CandE{
+		height:30px;
+		width:250px;
+		float:right;
+		background:url(./CE.jpg);
+		border-radius:5px;
+	}
+	
+		
+	#CandE li{		
+		float:left;
+	
+	}
+	
+	#CandE a{
+		width:100px;
+		height:30px;
+		line-height:30px;
+		text-align:center;
+		color:#000;
+		font-size:20px;
+		font-weight:bold;
+		margin-left:20px;
+		display:block;
+		text-decoration:none;
+	}
+	
+	#CandE a:hover,
+		   a:focus{
+			   cursor:pointer;
+			   color:#fff;
+			   
+		   }
+	#top{
+		width:1000px;
+		height:200px;
+		
+		top:30px;
+		left:100px;
+		float:left;
+		position:absolute;
+		}
+		
+	#wenzi{
+		width:800px;
+		height:150px;
+		top:60px;
+		left:20px;
+		position:relative;
+		background:#FFF;
+		opacity:0.8;
+		border-radius:7px;
+		padding:5px;
+		}
+		
+	#wenzi p{
+		text-indent:2em;
+		word-wrap:break-word;
+		font-size:12px;
+		color:#000;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		
+		
+		animation:myfirst 3s;
+
+	}
+	
+	@keyframes myfirst{
+		from{ opacity:0;}
+		to{ opacity:1;}
+	}
+
+	#wenzi span{
+		color:#900;
+		font-weight:bold;
+		font-size:36px;
+	}
+	#foot{
+		width:1000px;
+		height:400px;
+		
+		left:100px;
+		top:230px;
+		position:absolute;
+		}
+		
+	#slideShine{
+		width:330px;
+		height:70px;
+		color:#000;
+		line-height:90px;
+		text-indent:20px;
+		font-weight:bold;
+		font-size:35px;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		 background: #111 -webkit-linear-gradient(left, #111, #fff)  0 0 no-repeat;
+		 
+     -webkit-background-size: 1em;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: rgba(255, 255, 255, 0.3);
+     -webkit-animation: slideShine 3s infinite;
+		}
+	 @-webkit-keyframes slideShine {
+     0% {
+         background-position: 0 0;
+     }
+     100% {
+         background-position: 100% 100%;
+     }
+ }	
+ 
+ 
+ @keyframes slideShine {
+      0% {background-position: 0 0; }
+     100% {background-position: 100% 100%; }
+ }
+ 
+ 
+ 
+ .big{
+	 width:1000px;
+	 height:330px;
+	 
+	 }
+
+.zone:hover .back {
+		transform: rotateY(0deg);
+	}
+	.zone:hover .front {
+	    transform: rotateY(180deg);
+	}
+.zone,.front,.back {
+	width:160px;
+	height:325px;
+}
+.zone {
+	 border-radius:10px;
+	 transition: 0.6s;
+	 perspective:180;
+	 transform-style: preserve-3d;
+
+	 position:relative;
+	 backface-visibility:hidden;
+	 margin-right:5px;
+	 margin-top:10px;
+	 float:left;
+	 
+  
+}
+
+
+
+
+
+
+
+.front{
+	
+	background:#FFF;
+	}
+	.up{
+		width:160px;
+		height:260px;
+		left:8px;
+		top:8px;
+		position:absolute;
+		}
+		.down{
+			width:150px;
+			height:50px;
+			left:5px;
+			top:268px;
+			position:absolute;
+			}
+			.down p {
+				text-align:center;
+				font-size:18px;
+				}
+	.back{
+		background:url(back222.jpg);
+		text-align:center;
+		text-indent:2em;
+		
+		color:#FFF;
+		}
+		.text{
+			width:150px;
+			height:200px;
+			left:5px;
+			top:15px;
+			position:absolute;
+			font-size:11px;
+			}
+		.text span{
+		color:#fff;
+		
+		font-size:25px;
+	}
+.front,.back {
+	border-radius:10px;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: absolute;
+	
+}
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+	
+}
+.back {
+	transform: rotateY(180deg);
+}
+
+
+#fff{
+		background:url(./red4.jpg); width:1200px; height:150px; margin:10px auto;
+	}
+	
+	#ulcontainer{
+		margin:10px auto 0px auto; height:140px; width:800px;
+	}
+	
+	#ulcontainer ul{
+		list-style:none; float:left; margin:10px 20px 0px 40px;
+	}
+	
+	
+	.shou{
+		color:#fff; font-weight:bold; font-size:14px; margin-bottom:8px;
+	}
+	
+	#ulcontainer a{
+		color:#fff; text-decoration:none;
+		
+	}
+	
+	.ci{
+		color:#fff;
+		font-size:10px;
+		margin-bottom:8px;
+	}

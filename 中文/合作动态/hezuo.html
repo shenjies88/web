@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>与各国合作动态</title>
+<link rel="stylesheet" href="./inital.css" />
+<link rel="stylesheet" href="./muban.css" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<style>
+	@media screen and (max-width : 900px){
+		#container{
+			width:600px;
+			
+		}
+		
+		#slzg{
+			background:url(minbg16.jpg);
+		}
+			
+		#daohanglan a{		
+		line-height:40px;
+		font-size:15px;
+		font-family:"微软将雅黑";
+		width:75px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;			
+		}
+		#main{
+		height:1150px;
+		background:url(center.jpg);
+		position:relative;
+	}
+			#CandE{
+		height:30px;
+		width:130px;
+		background:
+		url(./CE.jpg);
+		float:right;
+		border-radius:5px;
+	}
+	
+	#CandE a{
+		width:50px;
+		height:30px;
+		display:block;
+		line-height:30px;
+		text-align:center;
+		color:#000;
+		font-size:10px;
+		font-weight:bold;
+		margin-left:10px;
+		text-decoration:none;
+		
+	}
+		
+		#baise{
+		width:500px;
+		height:1100px;
+		
+		left:50px;
+		top:30px;
+		float:left;
+		position:absolute;
+		
+		}
+		#title {
+			height:60px;
+			width:500px;
+			background:url(title30.jpg);
+		}
+		#down{
+	         width:500px;
+			 height:1000px;
+			 background:url(bjbj222.jpg);
+			 
+		}
+			
+		#tiao{
+			display:none;
+		}
+		#right{
+			width:495px;
+			height:480px;
+			
+			top:10px;
+			
+			float:left;
+			position:relative;
+			}
+		
+		
+		
+		
+		
+	
+	#fff{
+		background:url(./red4.jpg); width:600px; height:150px; margin:10px auto; margin-top:500px;
+	}
+	
+	#ulcontainer{
+		 width:600px;
+	}
+	
+	#ulcontainer ul{
+		 margin:10px 18px 0px 30px;
+	}
+		
+		
+	}
+</style>
+
+
+<script>
+window.onload=function ()
+{   
+	var aDiv=document.getElementsByClassName('new');
+	var bDiv=document.getElementsByClassName('new2');
+	
+	for(var i=0;i<aDiv.length;i++)
+	{
+		aDiv[i].timer=null;     
+		
+		aDiv[i].onmouseover=function ()
+		{
+			starmove(this,190);
+		};
+		aDiv[i].onmouseout=function ()
+		{
+			starmove(this,119);
+		};
+	}
+	
+	
+	for(var i=0;i<bDiv.length;i++)
+	{
+		bDiv[i].timer=null;     
+		
+		bDiv[i].onmouseover=function ()
+		{
+			starmove(this,230);
+		};
+		bDiv[i].onmouseout=function ()
+		{
+			starmove(this,120);
+		};
+	}
+}
+
+
+
+function starmove(obj, iTarget)
+{
+	clearInterval(obj.timer);    
+	obj.timer=setInterval(function (){          
+		var speed=(iTarget-obj.offsetHeight)/6; 
+		speed=speed>0?Math.ceil(speed):Math.floor(speed);
+		
+		if(obj.offsetHeight==iTarget)      
+		{
+		   clearInterval(obj.timer);	
+		}  
+		else
+		{
+			obj.style.height=obj.offsetHeight+speed+'px';
+		}
+		},30);
+		
+}
+
+
+
+
+</script>
+</head>
+
+<body>
+			<div id="container">
+    	<div id="header">
+        	<div id="slzg"></div>
+        	<div id="daohanglan">
+        	<nav>
+            	<a  href="../主页/main.html">主页</a>
+                <a  href="../国际节日/1.html">国际节日</a>
+                <a  href="../共建原则/2.html">共建原则</a>
+                <a  href="../历史背景/3.html">历史背景</a>
+                <a  href="../海上丝绸之路/aaa.html">海上丝路</a>
+                <a  href='../丝绸之路/aaa.html'>丝绸之路</a>
+                <a style="background:url(./Nalist_hover.gif)"  href="#">合作动态</a>
+                <a   href='../我们的总结/aaa.html'>总结</a>
+        	</nav>
+        	</div>
+        </div>
+        <div id="main">
+        	<div id="CandE">
+            	<ul>
+                	<li><a>中文</a></li>
+                    <li><a href="../../英文/合作动态English/aaa.html">English</a></li>
+                </ul>
+            </div>
+            <div id="baise">
+                <div id="title"></div>
+               
+               <div id="down">
+               <div id="left">
+                   <div class="new">
+                      <div class="tu">
+                      <img src="2017.07.24捷克总统泽曼在论坛上致辞.jpg" width="100" height="100" />
+                      </div>
+                      <hl>&nbsp;&nbsp;&nbsp;&nbsp;捷克总统泽曼在论坛上致辞</hl>
+                    <p>2017中国投资论坛日前在捷克首都布拉格圆满落幕。本届论坛的主题为：“一带一路”倡议下的“16+1”有效成功合作。超过300名来自中国、近500名来自捷克等中东欧国家的政要和多家重量级企业的代表出席了此次盛会。捷克总统泽曼和总理索博特卡均参会致辞，高度肯定“一带一路”倡议。</p>
+                    <p>泽曼总统在致辞中，对捷中两国在本次论坛签署高达数百亿克朗的合约表示赞赏。他特别指出，根据其中的一项合约，论坛结束第二天，将从捷克开出首趟中欧班列。他满怀深情地说，火车将沿着丝绸之路驶向中国，使捷克以铁路交通的方式，参与到“一带一路”这项世界现代历史上最引人瞩目的工程中。</p>
+              
+                   </div>
+                   <div class="arrow"></div>
+                   <div class="new">
+                      <div class="tu">
+                      <img src="2.jpg" width="100" height="100" />
+                      </div>
+                      <hl>&nbsp;&nbsp;&nbsp;&nbsp;俄罗斯网红冰激凌走向中国</hl>
+                    <p>
+                   去年G20杭州峰会上，俄罗斯总统普京带来一箱“冰雪老人”冰激凌，迅速成为中国“网红”产品，不少中国民众翘首以待一饱口福。目前，该品牌已经获得进入中国市场的相关许可证。</p>
+                    <p>
+                  众所周知，冰激凌容易融化，对运输和存储的要求非常高。由于这种特点的制约，冰激凌厂家的销售“半径”往往有限。若奶油冰激凌中途融化再重新凝冻，就会出现冰碴，失去原本绵软柔和的口感，吃起来让人有”吃雪“的感觉。<!--为了开拓中国市场，他们曾经用干冰箱把样品空运到中国，了解市场反应。-->目前，冰激凌要大批量地从俄罗斯出口到中国，最适宜的运输方式是铁路。
+过去俄罗斯货运集装箱要到达中国，至少需要一个月，“一带一路”建设让跨境铁路运输提速，通关手续由繁变简，现在俄罗斯货物10天内就可以到达中国大连港。</p>
+                   </div>
+                   <div class="arrow"></div>
+                   <div class="new">
+                       <div class="tu">
+                       <img src="3.jpg" width="100" height="100" />
+                       </div>
+                       <hl>&nbsp;&nbsp;&nbsp;&nbsp;布拉格—义乌中欧班列成功首发</hl>
+                      <p>7月19日，在捷克首都布拉格，中国浙江省省长袁家军、中国驻捷克大使马克卿和捷克工贸部副部长诺沃特尼，共同出席布拉格—义乌中欧班列发车仪式。</p>
+                      <p> 布拉格—义乌中欧班列19日在捷克首都布拉格成功首发，开启了捷克和中国浙江省新的贸易通道。</p>
+                      <p>据布拉格—义乌中欧班列运营方、义乌市天盟实业投资有限公司董事长冯旭斌介绍，这趟班列满载41个货柜，共计82个标箱，包括水晶、汽车配件、啤酒等捷克特色产品及其他欧洲商品，总货值约500万美元。班列途经波兰、白俄罗斯、俄罗斯、哈萨克斯坦，由阿拉山口入境中国，最终抵达目的地浙江义乌，全程运输时间约16天。</p>
+                   </div>
+                   <div class="arrow"></div>
+               </div>
+               <div id="tiao"></div>
+               <div id="right">
+                     <div class="arrow2"></div>
+                     <div class="new2">
+                        <div class="tu2">
+                           <img src="4..jpg" width="100" height="100" />
+                        </div>
+                        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“一带一路”带动中俄电力合作</h2>
+                      <p>近年来，在“一带一路”倡议的推动下，中国和俄罗斯在能源合作方面取得许多新进展。在俄罗斯，由中国公司建设的电力项目造福当地民众，受到广泛好评。</p>
+                      <p>捷宁斯卡娅电站是目前中国在俄罗斯最大的电力能源类投资项目。发电站采用了最先进的燃气发电设备，可减少25%的天然气消耗，并将大气污染物排放量降低三成。
+天然气通过燃气机组进行燃烧后进入到汽轮机组进行再次的循环，从而实现了能源的有效利用。作为第一座在雅罗斯拉夫尔州由中方负责施工的电站，捷宁斯卡娅电站也为俄罗斯工作人员提供了学习中国技术的平台。</p>
+<p>该项目将进一步激发当地的发展潜能，这正是两国合作互利共赢的典范。
+通过合作让中国先进的技术、标准和设备走出去，带动当地经济发展，这样的合作是典型的互利共赢。</p>
+                       
+                     </div>
+                     <div class="arrow2"></div>
+                    <div class="new2">
+                         <div class="tu2">
+                             <img src="4.jpg" width="100" height="100" />
+                         </div>
+                         <h2>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;“世界一带一路组织”正式成立</h2>
+                      <p>　以一带一路为杠杆，集天下之力，创造互联互通、互惠互利、和谐共生的新世界，在此背景下，“世界一带一路组织”于2017年7月21日正式成立，其宗旨为“和平与发展、合作与共赢”。</p>
+                      <p>　“世界一带一路组织”，是泰王国中央政府批准的“无关政党政治、不涉及宗教信仰”的“国家一级社团法人组织”；由27个国家的专家、学者、教授、政界精英、商界名流共同发起成立，已正式向联合国“经社理事会”申请成为一家国际性的非政府组织。其总部设在泰国曼谷市。</p>
+                      <p>当今世界，和平与发展需要加强对话沟通、平等交流，开放包容需要在开放中发展、在融合中共存，互学互鉴需要博采众长、共同提高，互利共赢需要互惠互利、共赢发展。在此背景下，“世界一带一路组织”应运而生！</p>
+                
+                    </div>
+                  
+               </div>
+               </div>
+            </div>
+        </div>
+        </div>
+        
+        <div id="fff">
+    	<div id="ulcontainer">
+        	<ul>
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10002" target='_blank'>新闻</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10149" target="_blank">高层动态</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10002" target="_blank">国内新闻</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10005" target="_blank">海外新闻</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10003" target="_blank">部委动态</a>
+                </li>
+            </ul>
+            
+        	<ul>
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/zchj.htm" target='_blank'>政策环境</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10010" target="_blank">计划规划</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10011" target="_blank">国际借鉴</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10029" target="_blank">图解政策</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/zchj.htm" target="_blank">政策查询</a>
+            </ul>
+            
+        	<ul>
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10006" target='_blank'>权威发布</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10008" target="_blank">双边文件</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10009" target="_blank">政策法规</a>
+                </li>                
+            </ul>
+            
+        	<ul>
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target='_blank'>五通发展</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target="_blank">政策沟通</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target="_blank">设施联通</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target="_blank">贸易畅通</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?tm_id=96" target="_blank">资金融通</a>
+            </ul>
+            
+        	<ul>
+            	<li class="shou"><a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10018" target='_blank'>基础数据</a></li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10032" target="_blank">数据热闻</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/datasearch.htm?1#china_macro" target="_blank">数据查询</a>
+                </li>
+                <li class="ci">
+                	<a href="https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10036" target="_blank">大数据</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
